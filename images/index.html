@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<!-- You do not need to make any changes to this file, but
+	you should still review the tags to make sure that you
+	are familiar with them. -->
+
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>    
+	  <script src="https://kit.fontawesome.com/7fa0eaec83.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link to the favicon image -->
+	<link rel="icon" href="images/photo-camera.png">
+	<!-- Link to the reset file -->
+	<link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <div id="skip"><a href="class/html-css/navigation/skip-navigation#content">Skip navigation</a></div> -->
+	 <title>About Me</title>	
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BZGD8HR3Q9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BZGD8HR3Q9');
+</script>
+</head>
+
+<!-- All of the visible code in the page belongs in the body tag -->
+<body>
+	 <a class="skip" href="#main">Jump to Content</a>
+
+	<!-- Header is a sematic tag page that aids readability -->
+	<header>
+		<div class="header">
+			<div class="bar-container">
+   				 <div class="bar" id="myBar"></div>
+  			</div>
+  		</div>
+	  	<script>
+	  		window.onscroll = function() {myFunction()};
+			function myFunction() {
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		</script>
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<nav>
+			<ul>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li class="active"><a href = "index.html">About Me</a></li>
+				<li><a href = "astrography.html">Astrography</a></li>
+				<li><a href = "landscape.html">Landscape</a></li>
+				<li><a href = "others.html">Others</a></li>
+			</ul>
+		</nav>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1>About Me</h1>
+	</header>
+
+	<!-- Every page should have a main tag for accessibility -->
+	<main id = "main">
+		<div class=box>
+		<img id='box1' src = "images/cave.jpg" alt = "My mom is dancing by the entrance to the cave while I am taking a photo from a mound in the cave" width="200"/>
+		<img src = "images/flower.jpg" alt = "A beautiful white flower in a park near my old university" width="200"/>
+		<img src = "images/galaxy.jpg" alt="A galaxy photo taken near an observatory near my old university" width="200"/>
+		<img src = "images/hawaii.jpeg" alt = "A bird view from the top of a super fun trail in Oahu" width="200"/>
+		<img src = "images/island.jpeg" alt = "A bird view of an island taken from a viewpoint on a hill in Oahu" width="200"/>
+		<img src = "images/nightview.jpeg" alt = "A night view of Honululu from the top of a hill" width="200"/>
+		<img src = "images/lighthouseclose.jpg" alt = "I really like the color of this cute lighthouse" width="200"/>
+		<img src = "images/purpletree.jpeg" alt = "A purple tree grows on the top of a hill in Oahu" width="200"/>
+		<img src = "images/lighthouse.jpeg" alt = "We got up at 5am to see sea sunrise near this lighthouse" width="200"/>
+
+	</div>
+		<p>I am a UX designer who likes photography. I started photography in my sophomore year when I exchanged at Berkeley. My first camera was Sony A6000, and a year later, I switched to Sony A7R2. This self-taught experience is indeed a fantastic journey. During the last four years, my growth and memory have been well documented in my photos.</p>
+
+		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
+		<p>Photography cultivates me to be more detail-oriented and aesthetic. I also learned lots of photo editing skills during this journey. Photography is not only about the moment of taking photos; meantime, photo editing is identically essential. Color editing can 100% alter the vibe of photos. Object editing is also essential, especially for astrography and portrait photography. I recently learned how to replace skies, which is super helpful when cloudy skies ruin the scenery. </p>
+		<p>My travel philosophy is not to go to as many places as possible like many people. I think it isn't very meaningful to rush from one country to another. I don't enjoy commuting, and I don't want to waste my money on similar tourist experiences. I travel occasionally, but I try to make every trip unique and memorable. Compared to quantity, I focus more on quality. Even if it means spending more on a single trip, I don't want to compromise and get the worse ones, without seeing the most splendid sceneries.</p>
+	</main>
+
+	<!-- Footer is a sematic tag page that aids readability -->
+	<footer>
+		<p>Zhanchen Huang <i class="fa-solid fa-camera"></i> &copy; 2022</p>
+	</footer>
+</body>
+</html>

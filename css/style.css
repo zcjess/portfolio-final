@@ -181,7 +181,7 @@ nav li{
 	transform: rotateY(180deg);
   }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 	nav li{
 		display: inline-block;
 		width: 45vw;
@@ -200,7 +200,7 @@ nav li{
 		justify-content: space-around;
 	}
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
 	nav li{
 		display: inline-block;
 		width: 20vw;
